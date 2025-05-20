@@ -1,0 +1,47 @@
+2025/05/18: Start of the project.
+
+What I’ve worked on:
+- Learned to use git.
+- Brainstorming about my project + trying to find suitable data in my field, focused on proteins and thus protein databases such as UniProt, PDB, and NCBI.
+- Experimenting with importing and reading .FASTA files in Python using the SeqIO module from Biopython library
+- Read up on many different Python libraries that I could possibly use on my sequences during my analysis, including FEPS (Feature Extraction from Protein Sequence), biotite (aligning amino acid sequences and generating phylogenetic trees), peptides (for acquiring peptide statistics, sequence profiles, and physiochemical properties, just from the amino acid sequence), and SeqVec (machine learning model for creating embeddings for amino acid sequences).
+
+Encountered problems:
+- Needed to do some additional steps which took some time because authentication methods have been changed in git.
+- I now downloaded proteins from three different organisms which fall within the GPCR family, but this family is very extensive and is an umbrella family for a lot of different receptors with lots of different functions and which also interact with many proteins and ligands. I am not sure whether choosing a protein with large variation within an organism will help me in comparing the proteins between organisms, so might change my choice for GPCR family proteins later.
+- The libraries I read up on have interesting modules with great potential for extensive data analysis and very good comparison of protein sequences between organisms, but many of them require very specific input data such as multiple sequence alignments (MSAs), protein structure data, or even data preprocessing in bash. I am sure these are very useful skills to learn, but since I only have 40 hours and want to keep the problem simple with not too complicated data, many libraries are too complicated to use in my analysis, such as ProDry and Evol. On the other hand, there are some tools which are only available as complete Python scripts which should be run from the terminal directly, with no option to see and adapt the code to your needs, such as iFeature, which is also not useful for this project.
+
+What I learned and which resources I used for this:
+- Learned to use the SeqIO module from Biopython using the documentation on biopython.org
+- Learned a lot about the potential (so did not use yet) of different Python libraries on their respective documentation pages or developer GitHub repository pages, such as biotite-python.org, github.com/dukkakc/FEPS_CFS, pypi.org/project/peptides/, and pypi.org/project/seqvec/ for FEPS, biotite, peptides, and SecVec, respectively.
+
+
+
+
+2025/05/19:
+
+What I’ve worked on:
+- Decided to switch to a more homogenous protein family within organism to improve comparison between organisms. Chose serine/threonine protein kinase family. Downloaded all verified .FASTA sequences from UniProt for five organisms: A. thaliana, D. melanogaster, D. rerio, H. sapiens, and R. norvegicus. Chose model organisms in plant, animal non-mammal, and animal mammal domains to compare on different levels. Could use the same code for importing and reading files.
+- Generating MSAs and phylogenetic tree for different organisms using biotite library.
+- Computing and comparing individual amino acid quantity across all proteins normalised to total protein length between organisms to see whether there are any changes between species or taxonomic levels.
+
+
+
+
+
+
+
+2025/05/20:
+
+
+Encountered problems:
+- I wanted to translate DNA to amino acid sequences and then align, but I required to write .fasta files for the amino acid sequences in between which was not covered clearly in the Biopython documentation. StackOverflow had a nice solution for this: using seqIO.write()
+- During reading of the .fna files, I found out that some files contain multiple of the same sequences with different accession numbers which SeqIO.read() cannot handle. You could use SeqIO.parse() for this, but to keep the upstream analysis feasible, I just removed the additional sequences, as they are largely the same and the purpose of the project is to learn using the library, not analysing the data.
+- I wanted to run an alignment but this is only possible using a cmd tool. I solved the problem through using ClustalwCommandline, which is part of Biopython, allowing Python to execute ClustalW from the command-line.
+
+
+What I learned and which resources I used for this:
+- Learned to use the SeqIO module from Biopython for translating and writing DNA to amino acid sequence files using the documentation on biopython.org and additional information on StackOverflow.
+
+
+

@@ -1,0 +1,3 @@
+8e782d5e33513eb2629e722514c0168a  ncbi_dataset/data/gene.fna
+3469ca27246c07df8dcbe6c5c16e0bda  ncbi_dataset/data/data_report.jsonl
+f0ef6a98a00764d56b9a7397aa2f79f1  ncbi_dataset/data/dataset_catalog.json
