@@ -1,0 +1,45 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.31 NT_033777.3:16099228-16105670 -            2.1e-76  257.2   0.0   2.7e-76  256.8   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NT_033777.3:16099228-16105670 -            4.3e-37  128.2   0.0   6.2e-37  127.7   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+PH                   PF00169.35 NT_033777.3:16099228-16105670 -            1.5e-19   70.8   0.3     4e-19   69.5   0.1   1.8   2   0   0   2   2   2   1 PH domain
+Pkinase_C            PF00433.29 NT_033777.3:16099228-16105670 -            1.2e-10   42.4   1.8   3.6e-10   40.8   1.8   1.9   1   0   0   1   1   1   1 Protein kinase C terminal domain
+Kinase-like          PF14531.12 NT_033777.3:16099228-16105670 -              1e-06   28.7   0.0   1.7e-06   27.9   0.0   1.3   1   0   0   1   1   1   1 Kinase-like
+PH_20                PF20399.4  NT_033777.3:16099228-16105670 -             0.0012   19.3   0.0    0.0037   17.7   0.0   1.8   1   0   0   1   1   1   1 PH domain
+Pkinase              PF00069.31 NC_007128.7:1437407-1537044 -            2.6e-52  178.2   0.0   3.1e-52  178.0   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NC_007128.7:1437407-1537044 -            3.5e-22   79.4   0.0   5.4e-22   78.8   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+Pkinase_C            PF00433.29 NC_007128.7:1437407-1537044 -            6.9e-10   39.9   2.8   1.3e-09   39.0   2.8   1.5   1   0   0   1   1   1   1 Protein kinase C terminal domain
+Kinase-like          PF14531.12 NC_007128.7:1437407-1537044 -            2.7e-07   30.6   0.0   3.4e-07   30.3   0.0   1.1   1   0   0   1   1   1   1 Kinase-like
+Pkinase              PF00069.31 NC_052536.1:c51173536-51102404 -            1.1e-80  271.3   0.0   1.5e-80  270.8   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NC_052536.1:c51173536-51102404 -            1.6e-35  123.1   0.0   2.9e-35  122.3   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+PH                   PF00169.35 NC_052536.1:c51173536-51102404 -            4.2e-14   53.4   0.2   9.8e-14   52.2   0.2   1.7   1   0   0   1   1   1   1 PH domain
+Pkinase_C            PF00433.29 NC_052536.1:c51173536-51102404 -            6.6e-11   43.2   3.4   1.7e-10   41.9   3.4   1.8   1   0   0   1   1   1   1 Protein kinase C terminal domain
+Kinase-like          PF14531.12 NC_052536.1:c51173536-51102404 -            1.1e-08   35.1   0.0   1.2e-07   31.8   0.0   2.0   2   0   0   2   2   2   1 Kinase-like
+Pkinase              PF00069.31 NC_086024.1:c137555131-137534810 -            2.9e-74  250.2   0.0   4.1e-74  249.7   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NC_086024.1:c137555131-137534810 -            7.5e-34  117.6   0.0   1.1e-33  117.1   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+PH                   PF00169.35 NC_086024.1:c137555131-137534810 -            2.6e-19   70.1   0.1   4.7e-19   69.3   0.1   1.5   1   0   0   1   1   1   1 PH domain
+Kinase-like          PF14531.12 NC_086024.1:c137555131-137534810 -            1.9e-08   34.4   0.0   1.9e-07   31.0   0.0   2.0   2   0   0   2   2   2   1 Kinase-like
+PH_20                PF20399.4  NC_086024.1:c137555131-137534810 -            0.00042   20.7   0.0   0.00086   19.7   0.0   1.4   1   0   0   1   1   1   1 PH domain
+Pkinase              PF00069.31 NC_041760.1:c167123096-167093460 -            1.4e-79  267.6   0.0   1.9e-79  267.2   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NC_041760.1:c167123096-167093460 -            4.3e-35  121.7   0.0   6.8e-35  121.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+PH                   PF00169.35 NC_041760.1:c167123096-167093460 -            2.4e-19   70.2   0.1     5e-19   69.2   0.1   1.6   1   0   0   1   1   1   1 PH domain
+Pkinase_C            PF00433.29 NC_041760.1:c167123096-167093460 -            6.7e-11   43.2   2.9   1.4e-10   42.2   2.9   1.6   1   0   0   1   1   1   1 Protein kinase C terminal domain
+Kinase-like          PF14531.12 NC_041760.1:c167123096-167093460 -            6.3e-09   35.9   0.0   6.7e-08   32.5   0.0   2.0   2   0   0   2   2   2   1 Kinase-like
+PH_20                PF20399.4  NC_041760.1:c167123096-167093460 -             0.0005   20.5   0.0    0.0011   19.4   0.0   1.5   1   0   0   1   1   1   1 PH domain
+Pkinase              PF00069.31 NC_000014.9:c104795748-104769349 -            1.4e-79  267.6   0.0   1.9e-79  267.2   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+PK_Tyr_Ser-Thr       PF07714.23 NC_000014.9:c104795748-104769349 -            4.1e-35  121.7   0.0   6.8e-35  121.0   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine and serine/threonine kinase
+PH                   PF00169.35 NC_000014.9:c104795748-104769349 -            2.4e-19   70.2   0.1     5e-19   69.2   0.1   1.6   1   0   0   1   1   1   1 PH domain
+Pkinase_C            PF00433.29 NC_000014.9:c104795748-104769349 -            6.7e-11   43.2   2.9   1.4e-10   42.2   2.9   1.6   1   0   0   1   1   1   1 Protein kinase C terminal domain
+Kinase-like          PF14531.12 NC_000014.9:c104795748-104769349 -            6.3e-09   35.9   0.0   6.7e-08   32.5   0.0   2.0   2   0   0   2   2   2   1 Kinase-like
+PH_20                PF20399.4  NC_000014.9:c104795748-104769349 -             0.0005   20.4   0.0    0.0011   19.4   0.0   1.5   1   0   0   1   1   1   1 PH domain
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      ./data/Akt1_amino_acid_sequences/translated_Akt1_sequences.fasta
+# Target file:     ./data/Pfam-A.hmm
+# Option settings: hmmscan --tblout ./results/pfam_results.txt -E 0.01 ./data/Pfam-A.hmm ./data/Akt1_amino_acid_sequences/translated_Akt1_sequences.fasta 
+# Current dir:     /Users/Anna/Documents/Biomedical sciences year 3/Scientific programming/DP/final_project
+# Date:            Sun May 25 19:02:54 2025
+# [ok]

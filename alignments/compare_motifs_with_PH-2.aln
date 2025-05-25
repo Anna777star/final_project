@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+motifs          LQWTTVIERTFHLGKGTFGKVILVKDEVAHTLTENNGGELFFHLSRERVFSEDRARFYGA
+PH-2            -----------YPGK---------DSPLVKPIR---AG-----------YLERKSKYLKS
+                           : **         .. :.:.:    .*           : * ::::  :
+
+motifs          EIVSALDNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTFCGTPEYLAPEVL
+PH-2            ----------Y-----------TEGYYVLTPAGFLHE----------FKSSDPFKT----
+                          *           .:*:  :*  *: :*          * .:  : :    
+
+motifs          EDNDYGRAVDWWGLGVVMYEMMCGRLPFYNQDHEKLFELILMEEIRFPRTLGPEAKSLLS
+PH-2            -----------------------GQAPVFS---------LYLPEC----TLGPPSD---P
+                                       *: *.:.         : : *     **** :.   .
+
+motifs          GLLKKDPKPPFKPQVTSE
+PH-2            G----SSSHKFH--LKGK
+                *    ...  *:  :..:
